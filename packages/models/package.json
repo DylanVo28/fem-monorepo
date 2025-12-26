@@ -1,0 +1,31 @@
+{
+  "name": "@seeds/models",
+  "version": "0.0.2",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.5.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seeds-org/seeds-monorepo",
+    "directory": "packages/models"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "dev": "tsc --build tsconfig.build.json --watch",
+    "lint": "eslint .",
+    "test": "vitest"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts"
+}

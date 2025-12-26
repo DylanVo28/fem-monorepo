@@ -1,0 +1,22 @@
+{
+  "name": "@seeds/ui",
+  "version": "0.0.2",
+  "dependencies": {
+    "@seeds/models": "0.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seeds-org/seeds-monorepo",
+    "directory": "packages/ui"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "ts-node source/index.ts"
+  },
+  "type": "module"
+}

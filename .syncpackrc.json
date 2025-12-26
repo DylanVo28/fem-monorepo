@@ -1,0 +1,17 @@
+{
+  "semverGroups": [
+    {
+      "label": "TypeScript must be unified",
+      "packages": ["**"],
+      "dependencies": ["typescript"],
+      "range": "^5.4.0"
+    },
+    {
+      "label": "Vitest must be unified",
+      "packages": ["**"],
+      "dependencies": ["vitest"],
+      "range": "^1.5.0"
+    }
+  ]
+}
+
