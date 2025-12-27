@@ -1,0 +1,39 @@
+{
+  "workspaces": {
+    "packages": {
+      "entry": [
+        "packages/server/src/index.ts",
+        "packages/ui/src/index.ts",
+        "packages/models/src/index.ts"
+      ],
+      "project": [
+        "packages/server/src/**/*.{ts,tsx}",
+        "packages/ui/src/**/*.{ts,tsx}",
+        "packages/models/src/**/*.{ts,tsx}"
+      ]
+    }
+  },
+  "ignore": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/*.test.ts",
+    "**/*.test.js"
+  ],
+  "ignoreDependencies": [
+    "eslint",
+    "syncpack",
+    "@tsconfig/svelte",
+    "c8",
+    "@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser",
+    "typescript-eslint",
+    "prettier",
+    "@manypkg/cli",
+    "@types/node",
+    "typescript",
+    "vitest",
+    "tsx",
+    "ts-node"
+  ]
+}
+

@@ -3,20 +3,30 @@
   "version": "0.0.0",
   "devDependencies": {
     "@manypkg/cli": "^0.23.0",
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "knip": "^5.77.4",
     "prettier": "^3.3.0",
     "syncpack": "^13.0.4",
-    "typescript": "^5.4.0"
+    "typescript": "^5.4.0",
+    "typescript-eslint": "^7.0.0"
   },
   "packageManager": "pnpm@9.0.0",
   "private": true,
   "scripts": {
-    "build": "pnpm -r build",
+    "build": "tsc -b packages/*/tsconfig.build.json",
     "check:packages": "manypkg check",
     "deps:check": "pnpm exec syncpack lint",
     "deps:fix": "pnpm exec syncpack fix-mismatches && pnpm exec syncpack format",
+    "dev": "./scripts/dev.sh",
     "fix:packages": "manypkg fix",
     "format": "npx prettier --write \"packages/**/*.{ts,tsx,js,json}\"",
-    "format:check": "npx prettier --check \"packages/**/*.{ts,tsx,js,json}\""
+    "format:check": "npx prettier --check \"packages/**/*.{ts,tsx,js,json}\"",
+    "knip": "knip",
+    "knip:strict": "knip --fail-on unused",
+    "lint": "pnpm exec eslint packages"
   },
   "type": "module"
 }

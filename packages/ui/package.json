@@ -2,10 +2,10 @@
   "name": "@seeds/ui",
   "version": "0.0.2",
   "dependencies": {
-    "@seeds/models": "0.0.2"
+    "@seeds/models": "workspace:*"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2",
+    "tsx": "^4.7.0",
     "typescript": "^5.4.0"
   },
   "private": true,
@@ -15,8 +15,8 @@
     "directory": "packages/ui"
   },
   "scripts": {
-    "build": "tsc --build",
-    "dev": "ts-node source/index.ts"
+    "build": "tsc --build tsconfig.build.json",
+    "dev": "tsx watch src/index.ts"
   },
   "type": "module"
 }

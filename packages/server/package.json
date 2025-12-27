@@ -2,7 +2,7 @@
   "name": "@seeds/server",
   "version": "0.0.2",
   "dependencies": {
-    "@seeds/models": "0.0.2",
+    "@seeds/models": "workspace:*",
     "express": "^4.18.2"
   },
   "devDependencies": {
