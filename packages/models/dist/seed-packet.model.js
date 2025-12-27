@@ -1,3 +1,6 @@
+/**
+ * @public
+ */
 export var SeedType;
 (function (SeedType) {
     SeedType["Corn"] = "corn";
