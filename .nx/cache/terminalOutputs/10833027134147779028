@@ -1,0 +1,15 @@
+> tsc --build tsconfig.build.json
+
+[96mtsconfig.build.json[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m TS6310: [0mReferenced project '/Users/dinh/WebstormProjects/frontend-master/monorepo/packages/ui' may not disable emit.
+
+[7m12[0m     { "path": "./packages/ui" },
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mtsconfig.build.json[0m:[93m13[0m:[93m5[0m - [91merror[0m[90m TS6310: [0mReferenced project '/Users/dinh/WebstormProjects/frontend-master/monorepo/packages/server' may not disable emit.
+
+[7m13[0m     { "path": "./packages/server" }
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Found 2 errors.
+

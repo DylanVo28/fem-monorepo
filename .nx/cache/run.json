@@ -1,0 +1,43 @@
+{
+  "run": {
+    "command": "nx affected -t build",
+    "startTime": "2025-12-28T10:28:30.301Z",
+    "endTime": "2025-12-28T10:28:30.357Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@seeds/models:build",
+      "target": "build",
+      "projectName": "@seeds/models",
+      "hash": "1136420536728198055",
+      "startTime": "2025-12-28T10:28:30.336Z",
+      "endTime": "2025-12-28T10:28:30.340Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@seeds/ui:build",
+      "target": "build",
+      "projectName": "@seeds/ui",
+      "hash": "7654217768010277350",
+      "startTime": "2025-12-28T10:28:30.344Z",
+      "endTime": "2025-12-28T10:28:30.348Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@seeds/server:build",
+      "target": "build",
+      "projectName": "@seeds/server",
+      "hash": "40887806657712108",
+      "startTime": "2025-12-28T10:28:30.344Z",
+      "endTime": "2025-12-28T10:28:30.350Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.3.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".syncpackrc.json",
+        "hash": "9057788797206393410"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "11523689320223264616"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "12103778277589324263"
+      },
+      {
+        "file": ".idea/monorepo.iml",
+        "hash": "2091662290190038625"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "11396527690753087939"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "8307954025563802293"
+      },
+      {
+        "file": ".idea/modules.xml",
+        "hash": "6464289180104880176"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "6690109932153088629"
+      },
+      {
+        "file": "package.json",
+        "hash": "869973132287121959"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "18361221293575164713"
+      },
+      {
+        "file": "knip.json",
+        "hash": "4783314063411018221"
+      },
+      {
+        "file": "tsconfig.build.json",
+        "hash": "17584060187005820154"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "12218314037562295978"
+      },
+      {
+        "file": "scripts/dev.sh",
+        "hash": "3996516592425006869"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13637022058895541629"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1594128684883030765"
+      },
+      {
+        "file": ".eslintrc.cjs",
+        "hash": "14051986429941927119"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6840017659955201863"
+      },
+      {
+        "file": ".idea/vcs.xml",
+        "hash": "14721619479974801327"
+      },
+      {
+        "file": ".prettierrc.cjs",
+        "hash": "6968381425489827172"
+      },
+      {
+        "file": ".idea/.gitignore",
+        "hash": "10286036308014790964"
+      }
+    ],
+    "projectFileMap": {
+      "@seeds/server": [
+        {
+          "file": "packages/server/data/seeds.json",
+          "hash": "605025844567360574"
+        },
+        {
+          "file": "packages/server/dist/index.d.ts",
+          "hash": "2674241503376658580"
+        },
+        {
+          "file": "packages/server/dist/index.d.ts.map",
+          "hash": "7742795226779192450"
+        },
+        {
+          "file": "packages/server/dist/index.js",
+          "hash": "10282631546716580242"
+        },
+        {
+          "file": "packages/server/dist/index.js.map",
+          "hash": "7570938573882634056"
+        },
+        {
+          "file": "packages/server/dist/load-data.d.ts",
+          "hash": "4326204713684176426"
+        },
+        {
+          "file": "packages/server/dist/load-data.d.ts.map",
+          "hash": "4267354127075202333"
+        },
+        {
+          "file": "packages/server/dist/load-data.js",
+          "hash": "12873250926915828153"
+        },
+        {
+          "file": "packages/server/dist/load-data.js.map",
+          "hash": "3789796348351134630"
+        },
+        {
+          "file": "packages/server/package.json",
+          "hash": "11571776097406415175",
+          "deps": [
+            "npm:@types/express",
+            "npm:tsx",
+            "npm:typescript",
+            "npm:vitest",
+            "@seeds/models",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "packages/server/project.json",
+          "hash": "17800480395428675515"
+        },
+        {
+          "file": "packages/server/src/index.ts",
+          "hash": "13808597492631486777"
+        },
+        {
+          "file": "packages/server/src/load-data.ts",
+          "hash": "15321706154611100059"
+        },
+        {
+          "file": "packages/server/tests/server.test.d.ts",
+          "hash": "11423629227690168719"
+        },
+        {
+          "file": "packages/server/tests/server.test.d.ts.map",
+          "hash": "13283170029836514120"
+        },
+        {
+          "file": "packages/server/tests/server.test.js",
+          "hash": "10917155878542255841"
+        },
+        {
+          "file": "packages/server/tests/server.test.js.map",
+          "hash": "2674845966142879026"
+        },
+        {
+          "file": "packages/server/tests/server.test.ts",
+          "hash": "8476547230811059927"
+        },
+        {
+          "file": "packages/server/tsconfig.build.json",
+          "hash": "17095505792499331210"
+        },
+        {
+          "file": "packages/server/tsconfig.json",
+          "hash": "18232682191355853215"
+        }
+      ],
+      "@seeds/models": [
+        {
+          "file": "packages/models/api-extractor.json",
+          "hash": "8614328225417054017"
+        },
+        {
+          "file": "packages/models/dist/index.d.ts",
+          "hash": "7901908262081628539"
+        },
+        {
+          "file": "packages/models/dist/index.d.ts.map",
+          "hash": "16404753755278327557"
+        },
+        {
+          "file": "packages/models/dist/index.js",
+          "hash": "7006871096190641558"
+        },
+        {
+          "file": "packages/models/dist/index.js.map",
+          "hash": "6625833761108057300"
+        },
+        {
+          "file": "packages/models/dist/models-alpha.d.ts",
+          "hash": "4698913575640482517"
+        },
+        {
+          "file": "packages/models/dist/models-beta.d.ts",
+          "hash": "4698913575640482517"
+        },
+        {
+          "file": "packages/models/dist/models.d.ts",
+          "hash": "4698913575640482517"
+        },
+        {
+          "file": "packages/models/dist/models.untrimmed.d.ts",
+          "hash": "4698913575640482517"
+        },
+        {
+          "file": "packages/models/dist/seed-packet.model.d.ts",
+          "hash": "6437451534827342232"
+        },
+        {
+          "file": "packages/models/dist/seed-packet.model.d.ts.map",
+          "hash": "6246544842720037265"
+        },
+        {
+          "file": "packages/models/dist/seed-packet.model.js",
+          "hash": "11823125007164598920"
+        },
+        {
+          "file": "packages/models/dist/seed-packet.model.js.map",
+          "hash": "11990024013295730136"
+        },
+        {
+          "file": "packages/models/dist/tsdoc-metadata.json",
+          "hash": "13228801884955396903"
+        },
+        {
+          "file": "packages/models/etc/models.api.json",
+          "hash": "17885268830098475139"
+        },
+        {
+          "file": "packages/models/etc/models.api.md",
+          "hash": "10623629530007247316"
+        },
+        {
+          "file": "packages/models/package.json",
+          "hash": "4820747528423767087",
+          "deps": [
+            "npm:@microsoft/api-extractor",
+            "npm:typescript",
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "packages/models/project.json",
+          "hash": "2531459786135219734"
+        },
+        {
+          "file": "packages/models/source/index.d.ts",
+          "hash": "7901908262081628539"
+        },
+        {
+          "file": "packages/models/source/index.d.ts.map",
+          "hash": "12113112433565352726"
+        },
+        {
+          "file": "packages/models/source/index.js",
+          "hash": "7006871096190641558"
+        },
+        {
+          "file": "packages/models/source/index.js.map",
+          "hash": "18262221798775834030"
+        },
+        {
+          "file": "packages/models/source/index.ts",
+          "hash": "16238347051610553819"
+        },
+        {
+          "file": "packages/models/source/seed-packet.model.d.ts",
+          "hash": "9375744876952765090"
+        },
+        {
+          "file": "packages/models/source/seed-packet.model.d.ts.map",
+          "hash": "6820474158706536180"
+        },
+        {
+          "file": "packages/models/source/seed-packet.model.js",
+          "hash": "12728978943168088790"
+        },
+        {
+          "file": "packages/models/source/seed-packet.model.js.map",
+          "hash": "1395625950829352423"
+        },
+        {
+          "file": "packages/models/source/seed-packet.model.ts",
+          "hash": "6427217626318210892"
+        },
+        {
+          "file": "packages/models/src/index.ts",
+          "hash": "17809693227089822640"
+        },
+        {
+          "file": "packages/models/src/seed-packet.model.ts",
+          "hash": "8014847138063758432"
+        },
+        {
+          "file": "packages/models/tests/seed-packet.test.d.ts",
+          "hash": "3783653879055565188"
+        },
+        {
+          "file": "packages/models/tests/seed-packet.test.d.ts.map",
+          "hash": "9043099563217610097"
+        },
+        {
+          "file": "packages/models/tests/seed-packet.test.js",
+          "hash": "16343724520247232478"
+        },
+        {
+          "file": "packages/models/tests/seed-packet.test.js.map",
+          "hash": "4856000197535673021"
+        },
+        {
+          "file": "packages/models/tests/seed-packet.test.ts",
+          "hash": "11307292005975771927"
+        },
+        {
+          "file": "packages/models/tsconfig.build.json",
+          "hash": "9061542792825539931"
+        },
+        {
+          "file": "packages/models/tsconfig.json",
+          "hash": "18232682191355853215"
+        }
+      ],
+      "@seeds/ui": [
+        {
+          "file": "packages/ui/dist/index.d.ts",
+          "hash": "2674241503376658580"
+        },
+        {
+          "file": "packages/ui/dist/index.d.ts.map",
+          "hash": "7742795226779192450"
+        },
+        {
+          "file": "packages/ui/dist/index.js",
+          "hash": "18274652405378388661"
+        },
+        {
+          "file": "packages/ui/dist/index.js.map",
+          "hash": "10260956675424890576"
+        },
+        {
+          "file": "packages/ui/package.json",
+          "hash": "10593327310895306003",
+          "deps": [
+            "npm:tsx",
+            "npm:typescript",
+            "@seeds/models"
+          ]
+        },
+        {
+          "file": "packages/ui/project.json",
+          "hash": "8482366353570444269"
+        },
+        {
+          "file": "packages/ui/src/index.ts",
+          "hash": "17885716269499640516"
+        },
+        {
+          "file": "packages/ui/tsconfig.build.json",
+          "hash": "9872539681950199676"
+        },
+        {
+          "file": "packages/ui/tsconfig.json",
+          "hash": "18232682191355853215"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "3419864276274060023"
+}
