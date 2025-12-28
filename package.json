@@ -8,6 +8,8 @@
     "@typescript-eslint/parser": "^7.0.0",
     "eslint": "^8.57.0",
     "knip": "^5.77.4",
+    "lerna": "^8.2.4",
+    "nx": "^22.3.3",
     "prettier": "^3.3.0",
     "syncpack": "^13.0.4",
     "typescript": "^5.4.0",

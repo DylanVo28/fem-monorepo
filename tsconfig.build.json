@@ -1,15 +1,8 @@
 {
   "extends": "./tsconfig.base.json",
-  "include": [
-    "packages/models/source/**/*.ts",
-    "packages/models/tests/**/*.ts",
-    "packages/ui/source/**/*.ts",
-    "packages/server/src/**/*.ts",
-    "packages/server/tests/**/*.ts"
-  ],
   "references": [
     { "path": "./packages/models/tsconfig.build.json" },
-    { "path": "./packages/ui" },
-    { "path": "./packages/server" }
+    { "path": "./packages/ui/tsconfig.build.json" },
+    { "path": "./packages/server/tsconfig.build.json" }
   ]
 }

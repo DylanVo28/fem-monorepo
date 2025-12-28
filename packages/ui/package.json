@@ -16,7 +16,9 @@
   },
   "scripts": {
     "build": "tsc --build tsconfig.build.json",
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "lint": "eslint .",
+    "test": "echo \"no tests\""
   },
   "type": "module"
 }
